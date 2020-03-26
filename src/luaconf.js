@@ -40,7 +40,7 @@ if (typeof process === "undefined") {
     const LUA_DIRSEP = "/";
     module.exports.LUA_DIRSEP = LUA_DIRSEP;
 
-    const LUA_LDIR = "./lua/" + LUA_VDIR + "/";
+    const LUA_LDIR = "./lua/";// + LUA_VDIR + "/";
     module.exports.LUA_LDIR = LUA_LDIR;
 
     const LUA_JSDIR = LUA_LDIR;
